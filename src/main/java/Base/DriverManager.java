@@ -29,7 +29,7 @@ public class DriverManager {
         return threadLocalDriver.get();
     }
 
-    public static ChromeOptions getChromeOptions(){
+    public static ChromeOptions getChromeOptions() {
         ChromeOptions chromeOptions = new ChromeOptions();
 //        chromeOptions.addArguments("--no-sandbox");
 //        chromeOptions.addArguments("--disable-dev-shm-usage");

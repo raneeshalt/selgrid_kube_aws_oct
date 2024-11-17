@@ -61,7 +61,7 @@ jobs:
           kubectl get pods
       - name: Install Helm Chart
         run: |
-          cd helm/selenium-helm
+          cd helm
           helm install ${{ env.RELEASE_NAME }} selenium-grid --wait
 
       - name: Test Deployment
